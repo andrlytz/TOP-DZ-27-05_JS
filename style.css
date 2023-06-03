@@ -1,0 +1,80 @@
+.one {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.box-one {
+    border: 2px solid black;
+    border-radius: 60px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+h2 {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.box-one {
+    display: inline-block;
+    display: flex;
+}
+
+img {
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.but {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: auto 20px;
+    border-radius: 100%;
+    border: 2px solid black;
+    font-size: 30px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.but:hover {
+    background-color: rgba(208, 206, 206, 0.53);
+}
+#but3:hover {
+    background-color: rgba(208, 206, 206, 0.53);
+}
+
+table {
+    border-collapse:collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+.box-two {
+    margin: 50px;
+    text-align: center;
+}
+
+#but3 {
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+}
